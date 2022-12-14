@@ -1,0 +1,156 @@
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('digital-7.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 250px;
+    border: 5px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px #D7d8da;
+    background-color: #04284e;
+}
+
+.scoreBoard{
+    width: 150px;
+    height: 250px;
+    //border: 1px solid white; //remover
+    //padding: 5px 5px 50px 5px;    
+}
+
+.team {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-family:'digital-clock-font';
+    color: #D45353;
+    font-size: 70px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.scoreSection {
+    background-color: black;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.addButtons {
+    position: relative;
+    bottom: 50px;
+    left: 1px;
+}
+
+.add-1 {
+    font-family:'digital-clock-font';
+    margin-left: 22px;
+    margin-right: 3px;
+    border: 1px solid white;
+    color: #9AABD8;
+    background-color: #04284e;
+    border-radius: 10%;
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+}
+
+.add-2 {
+    font-family:'digital-clock-font';
+    margin-right: 3px;
+    border: 1px solid white;
+    color: #9AABD8;
+    background-color: #04284e;
+    border-radius: 10%;
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+}
+
+.add-3 {
+    font-family:'digital-clock-font';
+    border: 1px solid white;
+    color: #9AABD8;
+    background-color: #04284e;
+    border-radius: 10%;
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+}
+
+.fouls {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 43px;
+    height: 40px;
+    //border: 1px solid white;
+    justify-content: space-around;
+}
+
+.foulsHome {
+    font-family:'digital-clock-font';
+    color: #D45353;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content:;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 10%;
+    position: relative;
+    bottom: 45px;
+}
+
+.foulsGuest {
+    font-family:'digital-clock-font';
+    color: #D45353;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content:;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 10%;
+    position: relative;
+    bottom: 45px;
+}
+
+.numberFouls {
+    position: relative;
+    bottom: 16px;
+}
+
+#foulsTitle {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+
+#newGame {
+    background-color: #eeeee4;
+    border: 1px solid white;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 8px;
+}
